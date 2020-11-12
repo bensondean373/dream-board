@@ -71,8 +71,8 @@ div {
     width: 100%;
     height: 100vh;
     background: #355B8C;
-    background-image: url("/images/desert-1654439.jpg");
-    background-size: 90rem;    
+    background-image: url("/images/beanie-2562646.jpg");
+    background-size: 100%;    
     background-repeat: no-repeat;
 }
 
@@ -228,4 +228,11 @@ footer {
 
 #footer-size {
     font-size: .75rem;
+}
+audio:hover {
+    transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333);
+}
+
+audio {height:200px; width:300px; background-image: url(/images/download.jpg); 
+
 }
