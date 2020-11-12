@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+a {
+    background-color: purple; 
+    transition: .5s;
+  }
+  
+  .a:hover {
+    background-color: rgba(255, 255, 255, 0.445);
+  }
+
+  .zoom {
+    transition: transform .2s; /* Animation */
+    
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2); /* (150% zoom)*/
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: blue;
+
+}
+
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+div {
+    display: block;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: #081826;
+    width: 100%;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-right: 2rem;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 2.rem;
+    padding: 2rem;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #355B8C;
+    background-image: url("/images/desert-1654439.jpg");
+    background-size: 90rem;    
+    background-repeat: no-repeat;
+}
+
+#project-list {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#project-tile {
+    
+}
+
+.projects-section-header {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+}
+
+.projects-section {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: #131A40;
+
+}
+
+#projects {
+    font-family: 'Righteous', cursive;;
+
+}
+   
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-family: 'Righteous', cursive;
+    
+}
+
+
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+    outline: none;
+}
+
+
+
+
+figcaption {
+    text-align: center;
+    color: white
+    
+}
+
+#contact { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: var rgb(167, 73, 73);
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: #17AEBF;
+}
+
+@keyframes stretch {
+    /* declare animation actions here */
+  }
+
+.contact-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    color: unset;
+    transition: ease-in-out 2s;
+    animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running; 
+}
+ 
+
+h1 {
+    color: fff;
+}
+
+#contact-caption {
+    color: #081826;
+}
+
+#paragraph-cap {
+    color: #081826;
+}
+p {
+    color: white;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color:  #081826;
+
+}
+
+@media screen, print {
+    /* Styles for screen and print devices */
+  }
+
+  @media screen and
+  (min-resolution: 192dpi),
+  (-webkit-min-device-pixel-ratio: 2) {
+    /* ... */
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+#java {
+    color: white;
+}
+
+#footer-size {
+    font-size: .75rem;
+}
